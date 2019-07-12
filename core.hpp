@@ -25,7 +25,7 @@ inline float saturate(float value) {
 
 typedef uint8_t byte;
 
-int ceil(float value) {
+inline int ceil(float value) {
   return (int)std::ceil(value);
 }
 
